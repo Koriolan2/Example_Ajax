@@ -24,9 +24,6 @@ select.addEventListener('change', ()=> {
     
     request.setRequestHeader('Content-type','application/json');
     request.send();
-    
-    
-    console.dir(request); 
 });
    
     
